@@ -4,7 +4,9 @@
 
 The Rice Leaf Disease Detection and Classification System is an AI-powered solution aimed at detecting and classifying various diseases affecting rice leaves. The system leverages both Machine Learning and Deep Learning techniques to ensure accurate and reliable predictions.
 
-
+### Dataset
+- **Dataset Source:** [Rice Leaf Diseases Dataset - Kaggle](https://www.kaggle.com/datasets/vbookshelf/rice-leaf-diseases)
+  
 ## Features
 
 - Rice leaf disease classification using:
