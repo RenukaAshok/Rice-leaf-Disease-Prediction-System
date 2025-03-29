@@ -1,24 +1,20 @@
 # Rice-leaf-Disease-Prediction-System
 
+## Features
 
----
-
-## 🚀 Features
-
-- ✅ Rice leaf disease classification using:
+- Rice leaf disease classification using:
   - Support Vector Machine (SVM)
   - Random Forest
   - Custom Convolutional Neural Network (CNN)
   - MobileNetV2 (Transfer Learning)
-- 📈 Model evaluation using accuracy, confusion matrix & classification report
-- 🖼️ Image preprocessing using OpenCV & HOG
-- 📄 Upload image or PDF for real-time prediction
-- 📊 Skill analytics and results visualization
-- 🌐 Interactive web interface built with Streamlit
+-  Model evaluation using accuracy, confusion matrix & classification report
+-  Image preprocessing using OpenCV & HOG
+-  Upload image or PDF for real-time prediction
+-  Skill analytics and results visualization
+-  Interactive web interface built with Streamlit
 
----
 
-## 🧪 Technologies Used
+## Technologies Used
 
 | Tech           | Purpose                        |
 |----------------|--------------------------------|
@@ -28,30 +24,28 @@
 | OpenCV         | Image Preprocessing            |
 | Streamlit      | Web App Framework              |
 | matplotlib     | Data Visualization             |
-| PyPDF2         | PDF Extraction (Text/Image)    |
 
----
 
-## 🧠 Models Overview
+##  Models Overview
 
-### 🔹 SVM & Random Forest
+###  SVM & Random Forest
 - Feature Extraction using HOG (Histogram of Oriented Gradients)
 - Trained on preprocessed rice leaf images
 - Output: Confusion matrix, accuracy, classification report
 
-### 🔹 MobileNetV2
+###  MobileNetV2
 - Transfer learning using pre-trained weights
 - Fine-tuned for rice leaf disease detection
 - High accuracy with minimal training time
 
-### 🔹 Custom CNN
+###  Custom CNN
 - 5 convolutional layers + dropout + dense layers
 - Achieved strong performance on test data
 - Built from scratch using Keras/TensorFlow
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Model            | Accuracy |
 |------------------|----------|
@@ -60,11 +54,10 @@
 | Custom CNN       | ~92%     |
 | MobileNetV2      | ~95%     |
 
----
 
-## 🧰 How to Run the Project
+##  How to Run the Project
 
-### 1. Clone this repo
+### Clone this repo
 ```bash
-git clone https://github.com/your-username/rice-leaf-disease-detection.git
+git clone https://github.com/RenukaAshok/rice-leaf-disease-detection.git
 cd rice-leaf-disease-detection
